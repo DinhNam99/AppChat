@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity"
+    android:background="#fff"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:background="#555557"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyte"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvUsename"
+                android:layout_marginLeft="25dp"
+                android:text="Username"
+                android:textSize="25dp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvMess"
+        android:layout_below="@+id/bar"
+        android:layout_above="@+id/send"
+        ></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:background="@drawable/text_draw"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edMess"
+            android:layout_toLeftOf="@+id/igSend"
+            android:hint="Type message..."
+            android:textSize="20dp"
+            android:textColorHint="#4A5A4A"
+            android:textColor="#4A5A4A"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/igSend"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_action_name"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

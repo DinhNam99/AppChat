@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "204180825808",
+    "firebase_url": "https://mychat-5dc2c.firebaseio.com",
+    "project_id": "mychat-5dc2c",
+    "storage_bucket": "mychat-5dc2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204180825808:android:0a8db38ba60e86d1",
+        "android_client_info": {
+          "package_name": "com.appchat.dell.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204180825808-uiri805kio5pmkrojtjt9o1lr1rjd19i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQYHFoERvDiQDBBg716wA8ULmiMMoIfAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204180825808-uiri805kio5pmkrojtjt9o1lr1rjd19i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
